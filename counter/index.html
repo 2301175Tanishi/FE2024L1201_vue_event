@@ -8,13 +8,13 @@
 </head>
 <body>
     <div id="app">
-        <button
-        @click="increment"
-        >２倍</button>
-        <button
-        @click="decrement"
-        >１/２</button>
-        <p>{{count}}</p>
+        <button @click="kake">２倍</button>
+        <button @click="wari">１/２</button>
+        <button @click="reset">リセット</button>
+        <br><input v-model.number="num" type="text">
+        <button @click="tasu">追加</button>
+        <button @click="hiku">減少</button>
+        <p>{{ count }}</p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./script/script.js"></script>
