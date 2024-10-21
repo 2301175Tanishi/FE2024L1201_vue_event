@@ -10,7 +10,7 @@ new Vue({
         increment(){
             this.count * 2;
         },
-        decremnt(){
+        decrement(){
             this.count / 2;
         }
     }
