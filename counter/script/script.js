@@ -7,11 +7,20 @@ new Vue({
         };
     },
     methods: {
-        increment(){
+        kake(){
             this.count * 2;
         },
-        decrement(){
+        wari(){
             this.count / 2;
+        },
+        reset(){
+            this.count * 0;
+        },
+        tasu(){
+            this.count + num;
+        },
+        hiku(){
+            this.count - num;
         }
     }
 });
