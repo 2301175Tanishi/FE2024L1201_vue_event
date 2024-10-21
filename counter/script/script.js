@@ -3,24 +3,24 @@ new Vue({
     el: '#app',
     data() {
         return {
-            count:1
+            num:0,count:1
         };
     },
     methods: {
         kake(){
-            this.count * 2;
+            this.count*=2;
         },
         wari(){
-            this.count / 2;
+            this.count/=2;
         },
         reset(){
-            this.count * 0;
+            this.count = 1;
         },
         tasu(){
-            this.count + num;
+            this.count += this.num;
         },
         hiku(){
-            this.count - num;
+            this.count -= this.num;
         }
     }
 });
